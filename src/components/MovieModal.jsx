@@ -24,7 +24,7 @@ const MovieModal = () => {
               <p>Genre: {data.Genre}</p>
               <p>Rating: {data.imdbRating}</p>
               <p>Country: {data.Country}</p>
-              <div>
+              <div className="back-btn">
                 <NavLink to="/" style={{ textDecoration: "none" }}>
                   {" "}
                   Go Back

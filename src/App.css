@@ -97,6 +97,19 @@
     justify-content: space-evenly;
     align-items: center;
   }
+
+  .model-container {
+    gap: 2rem;
+  }
+
+  .left-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .right-container .back-btn {
+    margin-bottom: 2px;
+  }
 }
 
 .search-section .input-container > input {
